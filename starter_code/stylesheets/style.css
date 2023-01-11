@@ -8,3 +8,334 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+html {
+    
+}
+
+
+.logo {
+    padding: 0 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #540B51;
+    padding-top: 20px;
+}
+.div-thing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+li {
+    padding: 0 10px 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.buttom-try-for-free {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color:  #540B51;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.buttom-sign-in {
+    background-color: #540B51;
+    border-style: none;
+}
+.class-for-sign-in {
+    margin-top: -10px;
+}
+
+
+
+
+h1{
+    color: white;
+    font-size: 75px;
+    padding: 50px 0 100px;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #540B51;
+    height: 500px;
+    padding-bottom: 100px;
+}
+.first-div{
+    width: 620px;
+}
+.slack-class {
+    color: #ECB12F;
+}
+header > div > p {
+    color: white;
+    font-size: 25px;
+}
+.first-buttom {
+    color: #540B51;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    border-style: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-right: 15px;
+}
+.second-buttom {
+    background-color: #4285F4;
+    color: white;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    border-style: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.google-icon {
+    margin: 0;
+    border-radius: 2px;
+    background-color: white;
+    border: 10px solid white;
+}
+.header-sign-in {
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    padding-top: 15px ;
+}
+
+
+
+
+
+.trusted {
+    background-color: #F3EAE2;
+    padding-top: 35px ;
+}
+.trusted p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.trusted > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+
+
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.p-text{
+    font-weight: 600;
+}
+.team {
+    background-color: #F3EAE2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.channels {
+    color:#2E71A6 ;
+}
+
+
+.choose {
+    background-color: #F3EAE2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+.communication {
+    color:#2E71A6 ;
+}
+
+
+.work-faster{
+    background-color: #F3EAE2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px; 
+}
+.work-faster span {
+    color:#2E71A6;
+}
+
+
+
+
+
+h3 {
+    font-size: 2.5em;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.p-enterprise-style {
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.enterprise {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.enterprise > p {
+    text-align: center;
+}
+.enterprise > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.btnenterprise {
+    
+    padding: 13px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color:#540B51 ;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 1px solid #540B51 ;
+    margin-bottom: 70px;
+}
+.btnsales {
+    padding: 13px 30px;
+    text-transform: uppercase;
+    background-color: white;
+    color:#540B51;
+    border-radius: 5px;
+    border-color:#540B51 ;
+    margin-left: 10px;
+    border: 1px solid #540B51 ;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+.purple {
+  font-size: 75px;  
+  color: #540B51;
+  font-weight: 600;
+}
+.trio p {
+    font-weight: 600;
+}
+
+
+
+
+.digital-hq {
+    background-color: #540B51;
+}
+.digital-hq h3 {
+    color: white;
+    padding: 50px 0 30px; 
+}
+.digital-hq div {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.try-for-free {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    color: #540B51;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+.talk-to-sales {
+    width: 150px;
+    height: 50px;
+    background-color: #540B51;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid white;
+}
+
+
+
+
+.footer-arrange {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:flex-start;
+}
+footer img {
+    padding: 50px 0 0 50px;
+}
+.footer-arrange > ul {
+    display: flex;
+    flex-direction: column;
+}
+.list-text-bold {
+    padding: 10px;
+    font-weight: 800;
+}
+.list-text {
+    padding: 10px;
+}
+
+.bellow-arrange {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-weight: 600;
+}
+.bellow-arrange > li > img {
+    padding: 0;
+    margin: 0;
+}
+.download-slack {
+    color: #2E71A6;
+}
+
+.media-links {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.copy {
+    margin: 50px 50px;
+    color:  #454245;
+}
